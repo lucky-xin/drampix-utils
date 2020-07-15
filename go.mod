@@ -1,4 +1,4 @@
-module github.com:lucky-xin/drampix-utils
+module github.com/lucky-xin/drampix-utils
 
 go 1.13
 

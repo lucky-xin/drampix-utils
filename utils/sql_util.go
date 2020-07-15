@@ -2,7 +2,6 @@ package utils
 
 import (
 	"bytes"
-	"github.com/jinzhu/gorm"
 )
 
 func GetInCondition(args []int64) string {
@@ -21,7 +20,6 @@ func GetInCondition(args []int64) string {
 			buffer.WriteString(",")
 		}
 	}
-	db := gorm.DB{}
 	return buffer.String()
 }
 

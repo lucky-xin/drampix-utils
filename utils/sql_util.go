@@ -22,7 +22,6 @@ func GetInCondition(args []int64) string {
 		}
 	}
 	db := gorm.DB{}
-	println(db)
 	return buffer.String()
 }
 
